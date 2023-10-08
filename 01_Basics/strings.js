@@ -34,4 +34,43 @@ let text4 = "Please visit Microsoft!";
 
 
 let text5 = "Please visit Microsoft and Microsoft!";
-console.log( text5.replace(/Microsoft/g, "W3Schools"));  // g is use for global match
+//console.log( text5.replace(/Microsoft/g, "W3Schools"));  // g is use for global match
+
+
+
+
+//********************* Question Practice**********************
+
+//1. Write a JavaScript function to check whether an 'input' is a string or not.
+// function checkString(){
+//     let input = 12;
+//     if((typeof input) == "string"){
+//         return "yes"
+//     }else{
+//         return "No"
+//     }
+// }
+// let result = checkString()
+// console.log(result);
+
+
+//2. Write a JavaScript function to check whether a string is blank or not.
+  
+//   function blankStr(){
+//     let str = "karsaz";
+//     if(str.length == 0){
+//         return "String blank"
+//     }else{
+//         return "string not blank"
+//     }
+//   }
+//   let result = blankStr();
+//   console.log(result);
+
+
+//3. Write a JavaScript function to split a string and convert it into an array of words.
+    
+//    let Text = "karsaz Ahamd";
+//    let result =Text.split(" ")
+//    console.log(result);
+//    console.log(result.length);
